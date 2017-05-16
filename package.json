@@ -4,11 +4,12 @@
   "description": "",
   "main": "app/app.js",
   "scripts": {
-    "start": "node app/app.js"
+    "start": "nodemon -e css,ejs,js,json --watch app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "reload": "^1.1.5"
   }
 }
